@@ -1,0 +1,24 @@
+{
+  "name": "typescript-advanced-types",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awdr74100/typescript-advanced-types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awdr74100/typescript-advanced-types/issues"
+  },
+  "homepage": "https://github.com/awdr74100/typescript-advanced-types#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
