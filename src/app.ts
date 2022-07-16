@@ -100,3 +100,15 @@ function moveAnimal(animal: Animal) {
 }
 
 moveAnimal({ type: 'bird', flyingSpeed: 10 });
+
+const emailInput = <HTMLInputElement>document.querySelector('.email');
+const passwordInput = document.querySelector('.password') as HTMLInputElement;
+const passwordAgainInput = document.querySelector('.passwordAgain');
+
+emailInput.placeholder = 'Enter your email';
+passwordInput.placeholder = 'Enter your password';
+
+if (passwordAgainInput) {
+  (passwordAgainInput as HTMLInputElement).placeholder =
+    'Enter your password again';
+}
