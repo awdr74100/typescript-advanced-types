@@ -112,3 +112,13 @@ if (passwordAgainInput) {
   (passwordAgainInput as HTMLInputElement).placeholder =
     'Enter your password again';
 }
+
+// { email: "Not a valid email", username: "Must start with a character!" }
+interface ErrorContainer {
+  [prop: string]: string;
+}
+
+const errorBag: ErrorContainer = {
+  email: 'Not a valid email!',
+  username: 'Must start with a capital character!',
+};
