@@ -51,6 +51,12 @@ const fetchedUserData: {
 console.log(fetchedUserData.account?.provider);
 console.log(fetchedUserData.account && fetchedUserData.account.provider);
 
+const userInput = undefined;
+
+const storedData = userInput ?? 'DEFAULT';
+
+console.log(storedData);
+
 // type UnknownEmployee = Employee | Admin;
 
 // function printEmployeeInformation(emp: UnknownEmployee) {
