@@ -37,6 +37,20 @@ function add(a: Combinable, b: Combinable) {
 const result = add('Yi-Ru', ' Lan');
 result.split(' ');
 
+const fetchedUserData: {
+  name: string;
+  age: number;
+  account?: {
+    provider: string;
+  };
+} = {
+  name: 'Ian',
+  age: 23,
+};
+
+console.log(fetchedUserData.account?.provider);
+console.log(fetchedUserData.account && fetchedUserData.account.provider);
+
 // type UnknownEmployee = Employee | Admin;
 
 // function printEmployeeInformation(emp: UnknownEmployee) {
